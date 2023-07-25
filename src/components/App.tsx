@@ -8,15 +8,14 @@ import {
 import "../baseStyles.css";
 import ErrorBoundary from "./ErrorBoundary";
 import PluginContext from "./PluginContext";
-import App from "./snow";
+import Snow from "./snow";
 
 const App: React.FC = () => {
   return (
     <ErrorBoundary>
       <PluginProvider>
-        <Stack>
-          <SimpleTable config={App.config} items={App.posts} />
-        </Stack>
+        <Snow/>
+              
         <PluginContext />
       </PluginProvider>
     </ErrorBoundary>
