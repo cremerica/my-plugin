@@ -13,7 +13,7 @@ import {
 // import ErrorBoundary from "./ErrorBoundary";
 const snURL = `https://dev67337.service-now.com`;
 
-const App: React.FC = () => {
+const Snow: React.FC = () => {
   const context = usePluginContext();
   console.log(context); 
   const [posts, setPosts] = React.useState<any[]>([]);
@@ -70,4 +70,4 @@ const App: React.FC = () => {
 };
 
 
-export default App;
+export default Snow;
