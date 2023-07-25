@@ -1,0 +1,11 @@
+openapi: 3.0.1
+info:
+  title: My Plugin
+  description: ""
+  x-cortex-tag: my-plugin
+  x-cortex-git:
+    github:
+      repository: cremerica/my-plugin
+  x-cortex-custom-metadata:
+    cortex-template-version: 0.1.0
+    cortex-generated-timestamp: 2023-07-25T14:14:45.677488650
